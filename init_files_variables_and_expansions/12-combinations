@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z} | grep -o . | sort -u | tr '\n' ' '
+echo {a..z} | grep -v "oo" | sort -u | tr '\n' ' '
