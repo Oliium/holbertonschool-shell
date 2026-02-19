@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
+#!/bin/bash
 cat -n | grep '^[[:space:]][1-9][13579][[:space:]].$' | cut -c7-
